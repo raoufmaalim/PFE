@@ -21,7 +21,7 @@ mag, angle = cv2.cartToPolar(gx, gy, angleInDegrees=True)
 for i in range(0,8):
     for j in range(0,8):
         print(mag[i,j])
-
+print ("Ameeeeeeeeeeeeeeeeeeeeeeeeer")
 
 cv2.imshow("bolt", mag)
 cv2.waitKey(0)
